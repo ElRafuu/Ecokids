@@ -1,0 +1,5 @@
+res://escenas/configuracion.tscn
+res://theme/EcoKidsTheme.tres
+res://escenas/MainMenu.tscn
+res://escenas/juego.tscn
+res://scripts/Configuracion.gd

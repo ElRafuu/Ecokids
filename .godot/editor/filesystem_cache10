@@ -1,22 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755545348
-default_bus_layout.tres::AudioBusLayout::651142914736216716::1754953680::0::1::::<><><>0<>0<><>::
-::res://escenas/::1754956630
-configuracion.tscn::PackedScene::4343297954076590730::1754956630::0::1::::<><><>0<>0<><>::uid://duvvnrfnru2wb::::res://scripts/Configuracion.gd<>uid://k660o82rlk3n::::res://Imagenes/Imagen menu principal 1920x1080.png<>uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf<>uid://wraeo6rqta1n::::res://theme/EcoKidsTheme.tres
-juego.tscn::PackedScene::6711124871523010903::1754944819::0::1::::<><><>0<>0<><>::uid://cvyfx5u2r62io::::res://scripts/Juego.gd
-MainMenu.tscn::PackedScene::809708764967424733::1754944819::0::1::::<><><>0<>0<><>::uid://23ygh83pmunq::::res://scripts/MainMenu.gd<>uid://wraeo6rqta1n::::res://theme/EcoKidsTheme.tres<>uid://k660o82rlk3n::::res://Imagenes/Imagen menu principal 1920x1080.png<>uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf
-::res://fuentes/::1754875298
-ComicNeue-Bold.ttf::FontFile/FontFile::4831711160540652353::1754861478::1754861481::1::::<><><>0<>0<>e9ccb6f46b5f302d8973266ecc6e051d<>res://.godot/imported/ComicNeue-Bold.ttf-b8b3f17005527d146184e9282c7b2072.fontdata::
-ComicNeueBold.tres::Font/Font::2597138028438238119::1754875298::0::1::::<><><>0<>0<><>::uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf
-::res://iconos/::1754868404
-icono_altavoz.png::CompressedTexture2D/CompressedTexture2D::8864494886079733422::1754868350::1754868404::1::::<><><>0<>0<>ddc176f6e1f9d1a1d409c4d4c49f444b<>res://.godot/imported/icono_altavoz.png-cb16614bb9bc9519c89d1a6be12c17e4.ctex::
-icono_fx.png::CompressedTexture2D/CompressedTexture2D::8457039989361917618::1754868350::1754868404::1::::<><><>0<>0<>3f0521cda48d738773abb990e05e3f39<>res://.godot/imported/icono_fx.png-10ddb7a6dfab8148da167cc08a15f4d5.ctex::
-icono_musica.png::CompressedTexture2D/CompressedTexture2D::1112409784522695043::1754868350::1754868404::1::::<><><>0<>0<>c386c00b366ca81b51bf6aa6fd79395e<>res://.godot/imported/icono_musica.png-8f7f1ffad3c99b61df622c02d3fc3744.ctex::
-::res://Imagenes/::1754854229
-Imagen menu principal 1920x1080.png::CompressedTexture2D/CompressedTexture2D::767811805934926453::1754854189::1754854229::1::::<><><>0<>0<>635af0bb513986645644d2aac698e8c0<>res://.godot/imported/Imagen menu principal 1920x1080.png-ebff8eb144742495d6bddc54de2d7a68.ctex::
-::res://scripts/::1754954020
-Configuracion.gd::GDScript::8607690030079236329::1754954020::0::1::::MenuConfiguracion<>Control<><>0<>0<><>::
-Juego.gd::GDScript/GDScript::6296698415953278450::1754850944::0::1::::<>Control<><>0<>0<><>::
-MainMenu.gd::GDScript/GDScript::1954369697865101482::1754880501::0::1::::<>Control<><>0<>0<><>::
-::res://theme/::1754944819
-EcoKidsTheme.tres::Theme::1579256909041718393::1754944819::0::1::::<><><>0<>0<><>::uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf
+::res://::1755570204
+default_bus_layout.tres::AudioBusLayout/AudioBusLayout::651142914736216716::1755567985::0::1::::<><><>0<>0<><>::
+::res://escenas/::1755568550
+configuracion.tscn::PackedScene::4343297954076590730::1755568550::0::1::::<><><>0<>0<><>::uid://duvvnrfnru2wb::::res://scripts/Configuracion.gd<>uid://k660o82rlk3n::::res://Imagenes/Imagen menu principal 1920x1080.png<>uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf<>uid://wraeo6rqta1n::::res://theme/EcoKidsTheme.tres
+juego.tscn::PackedScene::6711124871523010903::1755568550::0::1::::<><><>0<>0<><>::uid://cvyfx5u2r62io::::res://scripts/Juego.gd
+MainMenu.tscn::PackedScene::809708764967424733::1755568550::0::1::::<><><>0<>0<><>::uid://23ygh83pmunq::::res://scripts/MainMenu.gd<>uid://wraeo6rqta1n::::res://theme/EcoKidsTheme.tres<>uid://k660o82rlk3n::::res://Imagenes/Imagen menu principal 1920x1080.png<>uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf
+::res://fuentes/::1755568347
+ComicNeue-Bold.ttf::FontFile/FontFile::4831711160540652353::1755567985::1755568347::1::::<><><>0<>0<>e9ccb6f46b5f302d8973266ecc6e051d<>res://.godot/imported/ComicNeue-Bold.ttf-b8b3f17005527d146184e9282c7b2072.fontdata::
+ComicNeueBold.tres::Font/Font::2597138028438238119::1755567985::0::1::::<><><>0<>0<><>::uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf
+::res://iconos/::1755568347
+icono_altavoz.png::CompressedTexture2D/CompressedTexture2D::8864494886079733422::1755567985::1755568347::1::::<><><>0<>0<>ddc176f6e1f9d1a1d409c4d4c49f444b<>res://.godot/imported/icono_altavoz.png-cb16614bb9bc9519c89d1a6be12c17e4.ctex::
+icono_fx.png::CompressedTexture2D/CompressedTexture2D::8457039989361917618::1755567985::1755568347::1::::<><><>0<>0<>3f0521cda48d738773abb990e05e3f39<>res://.godot/imported/icono_fx.png-10ddb7a6dfab8148da167cc08a15f4d5.ctex::
+icono_musica.png::CompressedTexture2D/CompressedTexture2D::1112409784522695043::1755567985::1755568347::1::::<><><>0<>0<>c386c00b366ca81b51bf6aa6fd79395e<>res://.godot/imported/icono_musica.png-8f7f1ffad3c99b61df622c02d3fc3744.ctex::
+::res://Imagenes/::1755568348
+Imagen menu principal 1920x1080.png::CompressedTexture2D/CompressedTexture2D::767811805934926453::1755567985::1755568348::1::::<><><>0<>0<>635af0bb513986645644d2aac698e8c0<>res://.godot/imported/Imagen menu principal 1920x1080.png-ebff8eb144742495d6bddc54de2d7a68.ctex::
+::res://scripts/::1755567985
+Configuracion.gd::GDScript/GDScript::8607690030079236329::1755567985::0::1::::MenuConfiguracion<>Control<><>0<>0<><>::
+Juego.gd::GDScript/GDScript::6296698415953278450::1755567985::0::1::::<>Control<><>0<>0<><>::
+MainMenu.gd::GDScript/GDScript::1954369697865101482::1755567985::0::1::::<>Control<><>0<>0<><>::
+::res://theme/::1755568353
+EcoKidsTheme.tres::Theme::1579256909041718393::1755568353::0::1::::<><><>0<>0<><>::uid://ca3rtu5f54jyf::::res://fuentes/ComicNeue-Bold.ttf

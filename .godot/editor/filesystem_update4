@@ -1,5 +1,9 @@
-res://escenas/configuracion.tscn
-res://theme/EcoKidsTheme.tres
 res://escenas/MainMenu.tscn
+res://theme/EcoKidsTheme.tres
+res://scripts/SaveManager.gd
+res://scripts/MainMenu.gd
+res://escenas/SlotItem.tscn
+res://scripts/SlotItem.gd
+res://escenas/LevelSelect.tscn
+res://escenas/configuracion.tscn
 res://escenas/juego.tscn
-res://scripts/Configuracion.gd

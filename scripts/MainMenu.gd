@@ -6,7 +6,8 @@ extends Control
 # ---------- Configuración ----------
 const FONT_TTF_PATH  := "res://fuentes/ComicNeue-Bold.ttf"
 const CONFIG_SCENE   := "res://escenas/configuracion.tscn"
-const JUEGO_SCENE    := "res://escenas/juego.tscn"
+const JUEGO_SCENE    := "res://escenas/juego.tscn"  # Fallback
+const SLOTS_SCENE    := "res://escenas/LevelSelect.tscn" # << Nuevo: selector de partidas (3 slots)
 
 # Si los botones tienen otros nombres en la escena, cámbialos aquí:
 const BTN_CONFIG_NAME := "BtnConfig"
@@ -68,7 +69,15 @@ func _on_btn_config_pressed() -> void:
 	_ir_a_escena(CONFIG_SCENE)
 
 func _on_btn_jugar_pressed() -> void:
-	_ir_a_escena(JUEGO_SCENE)
+	# Primero intentamos enviar al selector de partidas (3 slots).
+	# Si por alguna razón la escena no existe, hacemos fallback al juego directo.
+	if ResourceLoader.exists(SLOTS_SCENE):
+		_ir_a_escena(SLOTS_SCENE)
+	elif ResourceLoader.exists(JUEGO_SCENE):
+		push_warning("No se encontró el selector de partidas. Abriendo el juego directamente.")
+		_ir_a_escena(JUEGO_SCENE)
+	else:
+		push_error("No se encontró ninguna escena válida para 'Jugar'. Revisa SLOTS_SCENE y JUEGO_SCENE.")
 
 func _on_btn_salir_pressed() -> void:
 	get_tree().quit()

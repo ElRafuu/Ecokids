@@ -1,7 +1,13 @@
-Button
-HBoxContainer
+LineEdit
 Label
 VBoxContainer
+AcceptDialog
+SlotItem
+MarginContainer
+Control
+Button
+Node
+HBoxContainer
 Panel
 CheckBox
 OptionButton

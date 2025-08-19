@@ -14,6 +14,10 @@ config/name="EcoKids Base"
 run/main_scene="res://escenas/MainMenu.tscn"
 config/features=PackedStringArray("4.4")
 
+[autoload]
+
+PerfilManager="*res://scripts/SaveManager.gd"
+
 [display]
 
 window/size/viewport_width=1920

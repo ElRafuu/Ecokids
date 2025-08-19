@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://kai0brmnv1gl"]
+
+[ext_resource type="Script" uid="uid://ttuvasodtv0b" path="res://scripts/SlotItem.gd" id="1_efwkd"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Selecciona tu partida"
+
+[node name="Slot1" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("1_efwkd")
+metadata/_custom_type_script = "uid://ttuvasodtv0b"
+
+[node name="Slot2" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("1_efwkd")
+metadata/_custom_type_script = "uid://ttuvasodtv0b"
+
+[node name="Slot3" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("1_efwkd")
+metadata/_custom_type_script = "uid://ttuvasodtv0b"
+
+[node name="CreateDialog" type="AcceptDialog" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CreateDialog"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AskLabel" type="Label" parent="CreateDialog/VBoxContainer"]
+layout_mode = 2
+text = "Escribe tu nombre"
+
+[node name="NameEdit" type="LineEdit" parent="CreateDialog/VBoxContainer"]
+layout_mode = 2
